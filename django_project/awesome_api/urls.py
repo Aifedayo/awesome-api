@@ -1,6 +1,6 @@
 from django.urls import include, path
 
-from rest_framework import router
+from rest_framework import routers
 
 from awesome_api.views import PersonViewSet, SpeciesViewSet
 
